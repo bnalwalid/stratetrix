@@ -1,0 +1,23 @@
+{
+  "name": "stratetrix",
+  "version": "1.0.0",
+  "description": "This study provides a straightforward analysis of the mechanics of the Tetris game.",
+  "scripts": {
+    "dev": "vite", 
+    "build": "tsc && vite build --base=/stratetrix/",
+    "preview": "vite preview",
+    "fast-push": "git add . && git commit -m '.' && git push",
+    "deploy" : "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Ahmad Maharmeh",
+  "license": "ISC",
+  "dependencies": {
+    "howler": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
